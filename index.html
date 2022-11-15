@@ -5,49 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arizonia&family=Merriweather&family=Space+Mono&family=Work+Sans:wght@100&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramen House | Louisville KY</title>
 </head>
 <body>
     
-    <header>
+    <header id="home">
     <div class="container-fluid">
                 <nav class="nav">
                     <a href="index.html" class="logo">
-                        <img src="img/RamenHouseLogo.png" alt="logo" height="100px" width="100px"/>
+                        <img src="img/RamenHouseLogo.png" alt="logo" class="main-logo" height="100px" width="100px"/>
                     </a>
+
+                    <div class="nav-display-desktop">
+                        <ul class="nav-list-desktop">
+                            <li class="nav-item-desktop">
+                               <a href="#home" class="nav-link-desktop"></a> 
+                            </li>
+                            <li class="nav-item-desktop">
+                               <a href="#about" class="nav-link-desktop">About</a> 
+                            </li>
+                            <li class="nav-item-desktop">
+                               <a href="#menu" class="nav-link-desktop">Menu</a> 
+                            </li>
+        
+                            <li class="nav-item-desktop">
+                               <a href="#hours" class="nav-link-desktop">Hours</a> 
+                            </li>
+                            <li class="nav-item-desktop">
+                                   <a href="#location" class="nav-link-desktop">Location</a> 
+                            </li>
+                            <li class="nav-item-desktop">
+                                   <a href="https://www.toasttab.com/ramen-house/v3" target="_blank" class="nav-link-desktop">Order Online</a> 
+                            </li>                          
+                           </ul>    
+                    </div>
+
 
                     <div class="nav_button">
                         <span class="nav_icon"></span>
                     </div>
-                    <ul class="nav-list">
-                        <li class="nav-item">
+                        <ul class="nav-list">
+                         <li class="nav-item">
                             <a href="#home" class="nav-link">Home</a> 
-                        </li>
-                        <li class="nav-item">
+                         </li>
+                         <li class="nav-item">
                             <a href="#about" class="nav-link">About</a> 
-                        </li>
-                        <li class="nav-item">
+                         </li>
+                         <li class="nav-item">
                             <a href="#menu" class="nav-link">Menu</a> 
-                        </li>
-                        <li class="nav-item">
-                            <a href="#onlineorder" class="nav-link">Order Online</a> 
-                        </li>
-                        <li class="nav-item">
-                                <a href="#location" class="nav-link">Location/Hours</a> 
-                            </li>
-                           
-                    </ul>
-                    <ul class="icons">
-                        <li class="icon"><a href="http://www.intagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                        <li class="icon"><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
-                        <li class="icon"><a href="https://www.toasttab.com/ramen-house/v3"><button>Order Online!</button></a></li>
+                         </li>
+     
+                         <li class="nav-item">
+                            <a href="#hours" class="nav-link">Hours</a> 
+                         </li>
+                         <li class="nav-item">
+                                <a href="#location" class="nav-link">Location</a> 
+                         </li>
+                         <li class="nav-item">
+                                <a href="https://www.toasttab.com/ramen-house/v3" target="_blank" class="nav-link">Order Online</a> 
+                         </li>                          
+                        </ul>
+                    <ul id="mobileNavIcons"  class="icons">
+                        <li class="icon"><a href="https://www.instagram.com/ramenhouselouisville/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li class="icon"><a href="https://www.facebook.com/RamenHouseLouisville/" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+                        <li class="icon"><a href="https://www.toasttab.com/ramen-house/v3"></a></li>
                     </ul>
                 </nav>
 </div>
 </header>
-
 
 <main>
 
@@ -55,13 +83,13 @@
         <div class="container">
             <div class="ramen-container">
                 
-                <h3 class="quality">Louisville, KY</h3>
+                <h3 class="quality"></h3>
             </div>
 
             <div class="restaurant-title">
-                <h1 class="title">
-                    Ramen <br />
-                    House
+                <h1 class="title"> Ramen House<br><br>
+                    Louisville<br>
+                    Ky
                 </h1>
             </div>
         </div>
@@ -69,25 +97,114 @@
 
     <section class="about" id="about">
         <div class="about-container">
-            <div class="about-content"></div>
-            <h2 class="section-title">About</h2>
+            <img class="animatedramenimgs" id="mummyramen" src="img/dragonramen.png" alt="mummyramen">
+            <h2 class="section-title">Our Shop</h2>
+            <div class="about-content">
                 <p>Established in 2018. We are bringing traditional Ramen to the City of Louisville! We also deliver Korean inspired rice bowls and we hand make our gyoza (dumplings). We don't try to do a lot of things half-decent, we try to do what we do very well.  Come check us out!</p>
+            </div>
+            <div class="about-slides">
+                
+                <div class="about-slides-imgs">
+                   
+                    <img class="aboutSlides" src="img/gyozas.jpg">
+                    
+                    <img class="aboutSlides" src="img/SpicyMisoTonk.jpg">
+
+                    <img id="bulgogiBowl" class="aboutSlides" src="img/doburibowl.jpeg">
+
+                    <img id="bibimbap" class="aboutSlides" src="img/bibimbap.jpg">
+                </div>
+                
+              
+            </div>
+
 
         </div>
     </section>
     <section class="menu" id="menu">
+        <img class="animatedramenimgs" id="cartoonpanda" src="img/pandaramen.png" alt="cartoon panda eating ramen">
         <div class="menu-container">
+           
         <div class="menu-content">
             <h2 class="section-title">Menu</h2>
-            <p>Variety of Ramens from Pork, Chicken, and Vegetarian broths!  We also offer korean inspired Donburi rice bowls.</p>
+            <p>Variety of Ramen options! <br> We serve Pork, Chicken, and Vegetarian broths.  Our menu also includes Korean style Donburi rice bowls, delicious buns, and our very own handmande Gyoza (dumplings).</p>
+            <!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides-container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="img/RHMenu-Apps.jpeg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="Img/RHMenu-Ramen.jpeg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="Img/RHMenu-Donburi.jpeg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="Img/RHMenu-Desserts.jpeg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="Img/RHMenu-Desserts.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+          <img src="Img/RHMenu-Drinks.jpeg" style="width:100%">
+      </div>
+   
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="Img/RHMenu-Apps.jpeg" style="width:50%" onclick="currentSlide(1)" alt="Appetizers">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="Img/RHMenu-Ramen.jpeg" style="width:50%" onclick="currentSlide(2)" alt="Ramen">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="Img/RHMenu-Donburi.jpeg" style="width:50%" onclick="currentSlide(3)" alt="Donburi Bowls">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="Img/RHMenu-Desserts.jpeg" style="width:50%" onclick="currentSlide(4)" alt="Desserts">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="Img/RHMenu-Drinks.jpeg" style="width:50%" onclick="currentSlide(5)" alt="Drinks">
+      </div>
+    </div>
+  </div>
         </div>    
         </div>
     </section>
 
     <section class="hours" id="hours">
         <div class="hours-container">
+            <h2 class="section-title">Hours</h2>
             <div class="hours-content">
-                <h2 class="section-title">Hours</h2>
+                <img src="img/ramenbanner.jpeg" alt="first floor" id="rammenbanner">
+                <table>
+                    <caption>
+                </caption>
+                
                 <tbody>
                     <tr>
                        <td>Monday</td>
@@ -118,6 +235,7 @@
                         <td>Closed</td>
                      </tr>
                  </tbody>
+                </table>
 
 
             </div>
@@ -125,102 +243,53 @@
     </section>
     <section class="location" id="location">
         <div class="location-container">
-        <div class="location-content">
+            <img class="animatedramenimgs" id="cartoondog" src="img/ramendog.png" alt="cartoon dog eating ramen">
             <h2 class="section-title">Location</h2>
-            <address>1250 Bardstown road ste 17A, Louisville, KY 40204</address>
-            <p>Located next to the theater in the back entrance of Mid City Mall!</p>
-            
+            <address>1250 Bardstown road ste 17A, Louisville, KY 40204
+                Located next to the theater in the back entrance of Mid City Mall!</address>
+            <div class="location-content">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.9471011574633!2d-85.72263147221636!3d38.23433481467954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88690d73f2cbbe5f%3A0xb32571915c7a2ffb!2sRamen%20House!5e0!3m2!1sen!2sus!4v1666974386993!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        
         </div>   
 
         </div>
     </section>
+<!---  <section class="owner" id="owner">
+        <div class="owner-container">
+            <img class="animatedramenimgs" id="cartoonramen" src="Img/mummyramen.png" alt="cartoon ramen">
+            <h2 class="section-title">Jonathan Ham</h2>
+           
+            <div class="owner-content">
+                <img id="owner-pic" src="img/RHowner.jpeg" alt="Owner picture" width="200">
+                <p><strong></strong> <br>
+                    I've been in the culinary industry since I was 17 and now 13 years later I've opened my own restaurant.  I've been a chef for 9 years and I'm infusing Japanese and Korean flavors together to try and make delicious dishes.</p>
+            </div>
+        </div>
+    </section>
+-->
 
 
 </main>
+
+<footer>
+    <div class="footer-container">
+    <h4>Contact Us</h4>
+    <p>1250 Bardstown Road 17a Louisville, KY<br> +1 502-709-5218 <br> ramenhouselouisville@gmail.com</p>
+        <div class="footer-social-links">
+        <ul class="icons">
+   
+            <li id="footerIcon" class="icon"><a href="http://www.intagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li id="footerIcon" class="icon"><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+            <li id="footerIcon" class="icon"><a href="https://www.toasttab.com/ramen-house/v3"></a></li>
+        </ul>
+    </div>
+</div>
+   <section class="footer2">
+       <p>Created by Eric Weatherington</p> 
+       <p>©Ramen House 2022</p>
+   </section>
+</footer>
 <script src="app.js"></script>
 </body>
 </html>
-
-         
-<!--
-        <div class="navbar">
-         <div class="navbar-left"></div>
-         <ul><a href="#about">About</a></ul>
-         <ul><a href="#ramen">Menu</a></ul> 
-         <ul><a href="https://www.toasttab.com/ramen-house/v3/" target="_blank">Order Online</a></ul>
-        </div>
-    </header>
-    <div class="About" id="about">
-        <h3>About</h3>
-        <p>Established in 2018. We are bringing traditional Ramen to the City of Louisville! We also deliver Korean inspired rice bowls and we hand make our gyoza (dumplings). We don't try to do a lot of things half-decent, we try to do what we do very well.  Come check us out!</p>
-        <div id="owner-pic"></div>
-        <h3>Meet the owner</h3>
-        <p>I've been in the culinary industry since I was 17 and now 13 years later I've opened my own restaurant.  I've been a chef for 9 years and I'm infusing Japanese and Korean flavors together to try and make delicious dishes.</p>
-    </div>
-  
-    <div class="ramen" id="ramen">
-        <h2>Ramen</h2>
-        <p>description of available ramen</p> </div>
-    <div id="rice-bowl-img"></div>
-    <div class="korean-rice-bowls" id="rice-bowls">
-        <h2>Korean Rice Bowls</h2>
-    </div>
-    <div id="buns-gyoza-img"></div>
-    <div class="Apps" id="appetizers">
-        <h2>Appetizers</h2>
-        <p>Buns and Gyoza</p>
-    </div>
-    <div class="hours" id="hours"></div>
-    <div id="image-outside"></div>
-    <caption>
-        <h2>Hours</h2>
-    </caption>
-     <tbody>
-        <tr>
-           <td>Monday</td>
-           <td>5pm - 10pm</td>
-        </tr>
-        <tr>
-            <td>Tuesday</td>
-            <td>5pm - 10pm</td>
-         </tr>
-         <tr>
-            <td>Wednesday</td>
-            <td>5pm - 10pm</td>
-         </tr>
-         <tr>
-            <td>Thursday</td>
-            <td>5pm - 10pm</td>
-         </tr>
-         <tr>
-            <td>Friday</td>
-            <td>5pm - 10pm</td>
-         </tr>
-         <tr>
-            <td>Saturday</td>
-            <td>5pm - 10pm</td>
-         </tr>
-         <tr>
-            <td>Sunday</td>
-            <td>Closed</td>
-         </tr>
-     </tbody>
-     <div class="location" id="location">
-         <h2>Location</h2>
-         <div class="mapouter"><div class="gmap_canvas"><iframe width="400px" height="300px" id="gmap_canvas" src="https://maps.google.com/maps?q=ramen%20house&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br><style>.mapouter{position:relative;text-align:left;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
-
-     </div>
-     <div class="order-online" id="order-online">
-         <h2>Order Online</h2>
-         <p>No delivery options, but we do accept carry out orders! Order online <a href="https://www.toasttab.com/ramen-house/v3" target="_blank">here</a></p>
-     </div>
-     <div class="blog" id="blog"></div>
-     <h2>Media</h2>
-    </div>
-
-</main>
-</body> 
-<footer></footer>
-</html>
--->
