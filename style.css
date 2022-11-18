@@ -251,6 +251,10 @@ h1 {
     text-align: center;
 }
 
+#hero-image {
+    width: 100%;
+}
+
 .quality    {
     font-size: 1.2rem;
     letter-spacing: 3px;
