@@ -848,7 +848,9 @@ footer h2 {
      flex-direction: row;
  }
 
- 
+.footer-container {
+    font-size: larger;
+} 
 
 }
 
