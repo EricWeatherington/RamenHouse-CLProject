@@ -240,8 +240,9 @@ h1 {
 
 .hero {
     width: 100%;
-    height: 75vh;
-    background: url("Img/ramenbowlUS.jpg") no-repeat center;
+    height: 135vh;
+    background: url("Img/Ramen_03.png") no-repeat center black;
+    background-color: black;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -250,6 +251,15 @@ h1 {
     justify-content: center;
     text-align: center;
 }
+
+/* .hero img {
+    width: 80%;
+    height: 70%;
+    background: none;
+
+ 
+
+} */
 
 #hero-image {
     width: 100%;
@@ -266,7 +276,7 @@ h1 {
 .title  {
     font-size: 5rem;
     color: #fff;
-
+    padding-top: 10rem;
 } 
 
 
@@ -692,9 +702,24 @@ footer h2 {
 
 
 @media screen and (max-width: 959px) {
-    #bulgogiBowl {
+ #bulgogiBowl {
         display: none;
     }
+
+.hero {
+        width: 100%;
+        height: 60vh;
+        background: url("Img/Ramen_03.png") no-repeat center black;
+        background-color: black;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        border: solid black;
+        box-shadow: 2rem;
+        justify-content: center;
+        text-align: center;
+    }
+
 
   
     
@@ -706,6 +731,8 @@ footer h2 {
 
 /* small tablet */
 @media screen and (min-width: 620px) {
+
+
 
 
 .footer-container {
